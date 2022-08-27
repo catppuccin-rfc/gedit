@@ -1,0 +1,25 @@
+# A catppuccin RC for gedit. In beta, specs may change
+app_name: gedit
+binary_name: gedit
+installation:
+  location:
+    macos: ~/.local/share/gtksourceview-3.0/styles/
+    linux: ~/.local/share/gtksourceview-3.0/styles/
+  flavours:
+    all:
+      default: 
+        - themes/
+      latte: 
+        default: 
+          - themes/catppuccin-latte.xml
+      frappe:
+        default: 
+          - themes/catppuccin-frappe.xml
+      macchiato:
+        default:
+          - themes/catppuccin-macchiato.xml
+      mocha:
+        default:
+          - themes/catppuccin-mocha.xml
+    to: .
+    one_flavour: false 
