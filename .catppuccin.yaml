@@ -3,23 +3,23 @@ app_name: gedit
 binary_name: gedit
 installation:
   location:
-    macos: ~/.local/share/gedit/styles/
-    linux: ~/.local/share/gedit/styles/
+    macos: ~/.local/share/gedit/
+    linux: ~/.local/share/gedit/
   flavours:
     all:
       default: 
         - themes/
-      latte: 
-        default: 
-          - themes/catppuccin-latte.xml
-      frappe:
-        default: 
-          - themes/catppuccin-frappe.xml
-      macchiato:
-        default:
-          - themes/catppuccin-macchiato.xml
-      mocha:
-        default:
-          - themes/catppuccin-mocha.xml
-    to: .
+    latte: 
+      default: 
+        - themes/catppuccin-latte.xml
+    frappe:
+      default: 
+        - themes/catppuccin-frappe.xml
+    macchiato:
+      default:
+        - themes/catppuccin-macchiato.xml
+    mocha:
+      default:
+        - themes/catppuccin-mocha.xml
+    to: styles/
     one_flavour: false 
