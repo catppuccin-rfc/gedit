@@ -3,8 +3,8 @@ app_name: gedit
 binary_name: gedit
 installation:
   location:
-    macos: ~/.local/share/gedit/styles/
-    linux: ~/.local/share/gedit/styles/
+    macos: ~/.local/share/gedit/
+    linux: ~/.local/share/gedit/
   flavours:
     all:
       default: 
@@ -21,5 +21,5 @@ installation:
       mocha:
         default:
           - themes/catppuccin-mocha.xml
-    to: .
+    to: /styles
     one_flavour: false 
