@@ -3,8 +3,8 @@ app_name: gedit
 binary_name: gedit
 installation:
   location:
-    macos: ~/.local/share/gtksourceview-3.0/styles/
-    linux: ~/.local/share/gtksourceview-3.0/styles/
+    macos: ~/.local/share/gedit/styles/
+    linux: ~/.local/share/gedit/styles/
   flavours:
     all:
       default: 
